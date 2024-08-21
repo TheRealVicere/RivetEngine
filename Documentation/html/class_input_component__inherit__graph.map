@@ -1,0 +1,4 @@
+<map id="InputComponent" name="InputComponent">
+<area shape="rect" id="node1" title="Allows functionality for processing specialized inputs (ie. not raw)." alt="" coords="5,336,269,721"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="24,5,251,288"/>
+</map>

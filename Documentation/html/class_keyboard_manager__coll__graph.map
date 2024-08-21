@@ -1,0 +1,10 @@
+<map id="KeyboardManager" name="KeyboardManager">
+<area shape="rect" id="node1" title="Manager for keyboard input." alt="" coords="165,1681,416,1920"/>
+<area shape="rect" id="node2" title=" " alt="" coords="211,1527,370,1619"/>
+<area shape="rect" id="node3" href="$class_key_handler.html" title="An input handler for a specific keyboard key." alt="" coords="171,1167,410,1464"/>
+<area shape="rect" id="node4" title=" " alt="" coords="193,1012,388,1089"/>
+<area shape="rect" id="node5" href="$class_input_component.html" title="Allows functionality for processing specialized inputs (ie. not raw)." alt="" coords="159,579,423,949"/>
+<area shape="rect" id="node6" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,263,232,516"/>
+<area shape="rect" id="node7" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,5,218,185"/>
+<area shape="rect" id="node8" href="$class_i_input_callback.html" title="A callback to perform the duties of an input component." alt="" coords="256,292,443,487"/>
+</map>

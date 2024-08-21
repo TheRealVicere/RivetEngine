@@ -1,0 +1,5 @@
+<map id="DeregCommand" name="DeregCommand">
+<area shape="rect" id="node1" title="A command used for component deregistration." alt="" coords="18,505,243,700"/>
+<area shape="rect" id="node2" href="$class_reg_dereg_command.html" title="A base command for component registration and deregistration." alt="" coords="5,233,256,457"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="31,5,230,185"/>
+</map>

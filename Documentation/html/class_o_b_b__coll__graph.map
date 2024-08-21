@@ -1,0 +1,5 @@
+<map id="OBB" name="OBB">
+<area shape="rect" id="node1" title="A box oriented with an object with collision functionality. Used for collision testing." alt="" coords="11,1033,198,1345"/>
+<area shape="rect" id="node2" href="$class_collision_box.html" title="A box surrounding an object with collision functionality. Used for collision testing." alt="" coords="10,483,199,985"/>
+<area shape="rect" id="node3" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="5,5,204,435"/>
+</map>

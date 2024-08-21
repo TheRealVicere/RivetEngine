@@ -1,0 +1,4 @@
+<map id="CollisionDispatch&lt; C1, C2 &gt;" name="CollisionDispatch&lt; C1, C2 &gt;">
+<area shape="rect" id="node1" title="A dispatch used to process collision callbacks for specific object types." alt="" coords="5,307,219,575"/>
+<area shape="rect" id="node2" href="$class_collision_dispatch_base.html" title="A dispatch used to process collision callbacks." alt="" coords="5,5,219,259"/>
+</map>

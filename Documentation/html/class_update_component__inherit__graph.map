@@ -1,0 +1,4 @@
+<map id="UpdateComponent" name="UpdateComponent">
+<area shape="rect" id="node1" title="Allows updating game object properties." alt="" coords="14,336,223,663"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,5,232,288"/>
+</map>

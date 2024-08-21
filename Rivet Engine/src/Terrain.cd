@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Terrain">
+    <Position X="7.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQBQgAYAAAGAAAAAIoIACAMCAAAAAACACFAAAQBAACI=</HashCode>
+      <FileName>Rivet Engine\Terrain.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="boxes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AABB" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIEAAACAAAAAAAAgAAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\AABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullTerrain">
+    <Position X="10.25" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAggAAAAAA=</HashCode>
+      <FileName>Rivet Engine\NullTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainRect">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="TerrainRect::Coords" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\TerrainRect.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAQAAAAQAAgAACQgAAAACAAAAAgAABAAAA=</HashCode>
+      <FileName>Rivet Engine\TerrainRect.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="terrain" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TerrainRectIterator">
+    <Position X="2.25" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAQAAAIgQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\TerrainRectIterator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionComponent" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="CollisionComponent::Volume" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionComponent.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgAAAEMAAIAAAQAACAAAAAAAABAACAAggIAgEAACAgA=</HashCode>
+      <FileName>Rivet Engine\CollisionComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9.75" />
+</ClassDiagram>

@@ -1,0 +1,6 @@
+<map id="Debugger" name="Debugger">
+<area shape="rect" id="node1" title="A tool for debugging games using the Rivet Engine." alt="" coords="5,676,268,1281"/>
+<area shape="rect" id="node2" title=" " alt="" coords="55,521,219,613"/>
+<area shape="rect" id="node3" href="$class_collision_draw_command.html" title="A command to register collision volumes for drawing." alt="" coords="20,235,253,459"/>
+<area shape="rect" id="node4" href="$class_command.html" title="A base command for the command pattern." alt="" coords="37,5,236,185"/>
+</map>

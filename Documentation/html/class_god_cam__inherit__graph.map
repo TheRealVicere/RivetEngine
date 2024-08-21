@@ -1,0 +1,4 @@
+<map id="GodCam" name="GodCam">
+<area shape="rect" id="node1" title="A free camera used during debugging, independent from the game camera." alt="" coords="7,248,196,531"/>
+<area shape="rect" id="node2" href="$class_actor.html" title="An object that can be spawned into and out of a scene." alt="" coords="5,5,197,200"/>
+</map>

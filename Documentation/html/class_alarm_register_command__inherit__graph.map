@@ -1,0 +1,4 @@
+<map id="AlarmRegisterCommand" name="AlarmRegisterCommand">
+<area shape="rect" id="node1" title="A command used to register an alarm." alt="" coords="5,233,228,560"/>
+<area shape="rect" id="node2" href="$class_command.html" title="A base command for the command pattern." alt="" coords="17,5,216,185"/>
+</map>

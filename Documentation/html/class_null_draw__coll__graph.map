@@ -1,0 +1,4 @@
+<map id="NullDraw" name="NullDraw">
+<area shape="rect" id="node1" title="A draw callback that does nothing." alt="" coords="8,263,193,457"/>
+<area shape="rect" id="node2" href="$class_i_draw_callback.html" title="A callback to perform the duties of a draw component. User&#45;defined derived classes should hold the ne..." alt="" coords="5,5,196,215"/>
+</map>

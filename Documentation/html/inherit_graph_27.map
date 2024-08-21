@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_i_spawn_callback.html" title="A callback to perform the duties of a spawn component. User&#45;defined derived classes should hold the g..." alt="" coords="5,5,129,31"/>
+<area shape="rect" id="node2" href="$class_actor_spawn.html" title="A generic spawn callback for actors." alt="" coords="177,5,272,31"/>
+</map>

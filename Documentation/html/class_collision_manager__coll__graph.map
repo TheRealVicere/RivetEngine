@@ -1,0 +1,17 @@
+<map id="CollisionManager" name="CollisionManager">
+<area shape="rect" id="node1" title="Manager for collision processing." alt="" coords="463,2959,675,3300"/>
+<area shape="rect" id="node2" title=" " alt="" coords="445,2703,651,2780"/>
+<area shape="rect" id="node3" href="$class_collision_group.html" title="A group of collidable objects of the same type." alt="" coords="433,2065,636,2363"/>
+<area shape="rect" id="node14" href="$class_collision_test_command.html" title="A command to test collisions." alt="" coords="599,2425,831,2679"/>
+<area shape="rect" id="node4" title=" " alt="" coords="425,1925,645,2003"/>
+<area shape="rect" id="node5" href="$class_collision_component.html" title="Adds collision processing to game objects." alt="" coords="429,1077,641,1536"/>
+<area shape="rect" id="node6" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="749,637,976,890"/>
+<area shape="rect" id="node7" href="$class_command.html" title="A base command for the command pattern." alt="" coords="839,130,1038,310"/>
+<area shape="rect" id="node8" href="$class_i_collision_callback.html" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="219,659,413,868"/>
+<area shape="rect" id="node9" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="362,5,561,435"/>
+<area shape="rect" id="node10" href="$class_b_sphere.html" title="A sphere surrounding an object with collision functionality. Used for collision testing." alt="" coords="539,549,725,978"/>
+<area shape="rect" id="node12" href="$class_collision_box.html" title="A box surrounding an object with collision functionality. Used for collision testing." alt="" coords="5,512,195,1015"/>
+<area shape="rect" id="node11" href="$class_a_a_b_b.html" title="An axis&#45;aligned box surrounding an object with collision functionality. Used for collision testing." alt="" coords="145,1560,332,1901"/>
+<area shape="rect" id="node13" title=" " alt="" coords="623,2804,777,2896"/>
+<area shape="rect" id="node15" href="$class_collision_dispatch_base.html" title="A dispatch used to process collision callbacks." alt="" coords="660,2087,873,2341"/>
+</map>

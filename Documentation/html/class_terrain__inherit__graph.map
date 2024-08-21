@@ -1,0 +1,4 @@
+<map id="Terrain" name="Terrain">
+<area shape="rect" id="node1" title="A surface that uses collision to orient objects travelling on it." alt="" coords="5,5,200,772"/>
+<area shape="rect" id="node2" href="$class_null_terrain.html" title="A terrain that does nothing." alt="" coords="19,820,186,1000"/>
+</map>

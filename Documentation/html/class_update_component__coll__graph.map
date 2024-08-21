@@ -1,0 +1,6 @@
+<map id="UpdateComponent" name="UpdateComponent">
+<area shape="rect" id="node1" title="Allows updating game object properties." alt="" coords="191,579,401,891"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,263,232,516"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,5,218,185"/>
+<area shape="rect" id="node4" href="$class_i_update_callback.html" title="A callback to perform the duties of an update component." alt="" coords="256,285,456,494"/>
+</map>

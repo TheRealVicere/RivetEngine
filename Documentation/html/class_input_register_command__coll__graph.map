@@ -1,0 +1,4 @@
+<map id="InputRegisterCommand" name="InputRegisterCommand">
+<area shape="rect" id="node1" title="An command to register keyboard inputs." alt="" coords="5,233,227,531"/>
+<area shape="rect" id="node2" href="$class_command.html" title="A base command for the command pattern." alt="" coords="17,5,215,185"/>
+</map>

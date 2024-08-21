@@ -1,0 +1,4 @@
+<map id="Skybox" name="Skybox">
+<area shape="rect" id="node1" title="A default skybox for level design." alt="" coords="13,5,207,244"/>
+<area shape="rect" id="node2" href="$class_null_skybox.html" title="A skybox that does not get rendered." alt="" coords="5,292,215,472"/>
+</map>

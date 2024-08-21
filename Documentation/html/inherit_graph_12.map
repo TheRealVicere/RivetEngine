@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="27,129,118,155"/>
+<area shape="rect" id="node2" href="$class_alarm_component.html" title="Adds alarm functionality to game objects." alt="" coords="197,55,323,80"/>
+<area shape="rect" id="node3" href="$class_collision_component.html" title="Adds collision processing to game objects." alt="" coords="188,5,332,31"/>
+<area shape="rect" id="node4" href="$class_draw_component.html" title="Allows game objects to be rendered to the display." alt="" coords="199,104,321,129"/>
+<area shape="rect" id="node5" href="$class_input_component.html" title="Allows functionality for processing specialized inputs (ie. not raw)." alt="" coords="201,153,319,179"/>
+<area shape="rect" id="node6" href="$class_spawn_component.html" title="An actor or other object used in a game scene." alt="" coords="193,203,327,228"/>
+<area shape="rect" id="node7" href="$class_update_component.html" title="Allows updating game object properties." alt="" coords="193,252,327,277"/>
+<area shape="rect" id="node8" href="$class_i_collision_callback.html" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="5,5,140,31"/>
+</map>

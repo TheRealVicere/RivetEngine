@@ -1,0 +1,12 @@
+<map id="CollisionGroup" name="CollisionGroup">
+<area shape="rect" id="node1" title="A group of collidable objects of the same type." alt="" coords="551,2065,753,2363"/>
+<area shape="rect" id="node2" title=" " alt="" coords="450,1925,670,2003"/>
+<area shape="rect" id="node3" href="$class_collision_component.html" title="Adds collision processing to game objects." alt="" coords="393,1077,605,1536"/>
+<area shape="rect" id="node4" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,637,232,890"/>
+<area shape="rect" id="node5" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,130,218,310"/>
+<area shape="rect" id="node6" href="$class_i_collision_callback.html" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="256,659,451,868"/>
+<area shape="rect" id="node7" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="570,5,769,435"/>
+<area shape="rect" id="node8" href="$class_b_sphere.html" title="A sphere surrounding an object with collision functionality. Used for collision testing." alt="" coords="576,549,763,978"/>
+<area shape="rect" id="node10" href="$class_collision_box.html" title="A box surrounding an object with collision functionality. Used for collision testing." alt="" coords="787,512,976,1015"/>
+<area shape="rect" id="node9" href="$class_a_a_b_b.html" title="An axis&#45;aligned box surrounding an object with collision functionality. Used for collision testing." alt="" coords="675,1560,861,1901"/>
+</map>

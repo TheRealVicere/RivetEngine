@@ -1,0 +1,8 @@
+<map id="BoxDrawCommand" name="BoxDrawCommand">
+<area shape="rect" id="node1" title="A command to register collision boxes for drawing." alt="" coords="129,1411,347,1649"/>
+<area shape="rect" id="node2" href="$class_collision_draw_command.html" title="A command to register collision volumes for drawing." alt="" coords="5,1080,239,1304"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="23,645,221,825"/>
+<area shape="rect" id="node4" href="$class_o_b_b.html" title="A box oriented with an object with collision functionality. Used for collision testing." alt="" coords="263,1036,450,1348"/>
+<area shape="rect" id="node5" href="$class_collision_box.html" title="A box surrounding an object with collision functionality. Used for collision testing." alt="" coords="262,484,451,987"/>
+<area shape="rect" id="node6" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="257,5,456,435"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="CollisionDrawCommand" name="CollisionDrawCommand">
+<area shape="rect" id="node1" title="A command to register collision volumes for drawing." alt="" coords="5,233,239,457"/>
+<area shape="rect" id="node2" href="$class_command.html" title="A base command for the command pattern." alt="" coords="23,5,221,185"/>
+</map>

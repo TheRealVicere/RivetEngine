@@ -1,0 +1,6 @@
+<map id="RegCommand" name="RegCommand">
+<area shape="rect" id="node1" title="A command used for component registration." alt="" coords="6,852,255,1047"/>
+<area shape="rect" id="node2" href="$class_reg_dereg_command.html" title="A base command for component registration and deregistration." alt="" coords="5,579,256,803"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="31,5,230,185"/>
+<area shape="rect" id="node4" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="147,263,373,516"/>
+</map>

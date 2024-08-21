@@ -1,0 +1,5 @@
+<map id="NullSceneCommand" name="NullSceneCommand">
+<area shape="rect" id="node1" title="A scene command that allows changing scenes, but does not itself change scenes. Used to allow constan..." alt="" coords="5,491,216,729"/>
+<area shape="rect" id="node2" href="$class_scene_command.html" title="The base scene change command." alt="" coords="11,233,210,443"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="11,5,210,185"/>
+</map>

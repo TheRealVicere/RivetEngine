@@ -1,0 +1,4 @@
+<map id="AlarmDeregisterCommand" name="AlarmDeregisterCommand">
+<area shape="rect" id="node1" title="A command used to deregister an alarm." alt="" coords="5,233,236,516"/>
+<area shape="rect" id="node2" href="$class_command.html" title="A base command for the command pattern." alt="" coords="21,5,220,185"/>
+</map>

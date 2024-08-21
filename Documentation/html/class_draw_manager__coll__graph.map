@@ -1,0 +1,8 @@
+<map id="DrawManager" name="DrawManager">
+<area shape="rect" id="node1" title="Manager for rendering objects to the display." alt="" coords="107,1064,362,1288"/>
+<area shape="rect" id="node2" title=" " alt="" coords="135,924,334,1001"/>
+<area shape="rect" id="node3" href="$class_draw_component.html" title="Allows game objects to be rendered to the display." alt="" coords="105,579,364,861"/>
+<area shape="rect" id="node4" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,263,232,516"/>
+<area shape="rect" id="node5" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,5,218,185"/>
+<area shape="rect" id="node6" href="$class_i_draw_callback.html" title="A callback to perform the duties of a draw component. User&#45;defined derived classes should hold the ne..." alt="" coords="257,285,447,494"/>
+</map>

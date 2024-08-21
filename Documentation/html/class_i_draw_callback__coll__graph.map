@@ -1,0 +1,3 @@
+<map id="IDrawCallback" name="IDrawCallback">
+<area shape="rect" id="node1" title="A callback to perform the duties of a draw component. User&#45;defined derived classes should hold the ne..." alt="" coords="5,5,196,215"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ICollisionCallback" name="ICollisionCallback">
+<area shape="rect" id="node1" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="14,5,209,215"/>
+<area shape="rect" id="node2" href="$class_collision_component.html" title="Adds collision processing to game objects." alt="" coords="5,263,217,751"/>
+</map>

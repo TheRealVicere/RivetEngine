@@ -1,0 +1,4 @@
+<map id="GameTimer" name="GameTimer">
+<area shape="rect" id="node1" title="A time utility for games made using Rivet Engine." alt="" coords="5,483,219,780"/>
+<area shape="rect" id="node2" href="$class_freeze_time.html" title="Handles debug freeze frame mode and pauses the game while the window is moving." alt="" coords="17,5,207,420"/>
+</map>

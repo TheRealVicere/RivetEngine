@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Component">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <AssociationLine Name="deregCmd" Type="Command" FixedFromPoint="true">
+      <Path>
+        <Point X="36" Y="2.75" />
+        <Point X="34.75" Y="2.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="regCmd" Type="Command" FixedFromPoint="true">
+      <Path>
+        <Point X="36" Y="2.312" />
+        <Point X="34.75" Y="2.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAIAAAAAAAAAAACAAAABABAAAgAABgAAAAAAk=</HashCode>
+      <FileName>Rivet Engine\Component.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="regState" />
+      <Field Name="deregCmd" />
+      <Field Name="regCmd" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RegDeregCommand">
+    <Position X="30" Y="1" Width="2" />
+    <InheritanceLine Type="Command" FixedFromPoint="true">
+      <Path>
+        <Point X="33.25" Y="2.438" />
+        <Point X="32" Y="2.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgEAgAQAA=</HashCode>
+      <FileName>Rivet Engine\RegDeregCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="component" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RegCommand" Collapsed="true">
+    <Position X="27.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAgAAgAAAA=</HashCode>
+      <FileName>Rivet Engine\RegCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeregCommand" Collapsed="true">
+    <Position X="27.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\DeregCommand.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Command" Collapsed="true">
+    <Position X="33.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAABAAAAAAIAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\Command.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistryAttorney">
+    <Position X="41.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\RegistryAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateComponent">
+    <Position X="49" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAQCAAAAAAAIAAAAAABAAAAAgAEAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\UpdateComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="callback" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IUpdateCallback">
+    <Position X="49.25" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAACAAAAAAAAAAAAAAIAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\IUpdateCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullUpdate">
+    <Position X="51.5" Y="9" Width="1.5" />
+    <InheritanceLine Type="IUpdateCallback" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="51" Y="10.062" />
+        <Point X="51.5" Y="10.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAAAAABAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\NullUpdate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateManager">
+    <Position X="51.5" Y="5.5" Width="1.75" />
+    <NestedTypes>
+      <Typedef Name="UpdateManager::StorageListRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\UpdateManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="UpdateManager::StorageList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\UpdateManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAABAAAABAAAAAAAAAAAAABAAAQAAAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\UpdateManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateAttorney">
+    <Position X="53.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\UpdateAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawComponent">
+    <Position X="46" Y="5.5" Width="1.5" />
+    <AssociationLine Name="callback" Type="IDrawCallback" FixedFromPoint="true">
+      <Path>
+        <Point X="47.062" Y="8.732" />
+        <Point X="47.062" Y="9" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.166" Y="0.038" Height="0.197" Width="0.81" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABCAAAAAACAAgAAAAIAAAAAABAAAAAgQAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\DrawComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="callback" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IDrawCallback">
+    <Position X="46" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\IDrawCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawManager">
+    <Position X="44" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="DrawManager::StorageList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\DrawManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="DrawManager::StorageListRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\DrawManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAIBAAAAAAAAAEAAABAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\DrawManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DrawAttorney">
+    <Position X="42" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\DrawAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullDraw">
+    <Position X="44" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAIAAIAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\NullDraw.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmComponent">
+    <Position X="38.75" Y="5.5" Width="1.75" />
+    <AssociationLine Name="callback" Type="IAlarmCallback" FixedFromPoint="true">
+      <Path>
+        <Point X="39.938" Y="9.144" />
+        <Point X="39.938" Y="9.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAQAgAAAAIAAAAAABAAAEAgAABgAAAABEA=</HashCode>
+      <FileName>Rivet Engine\AlarmComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="callback" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IAlarmCallback">
+    <Position X="38.75" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABgABAAAAA=</HashCode>
+      <FileName>Rivet Engine\IAlarmCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lifetime">
+    <Position X="41" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAgAAAAAAAAAAAEBgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\Lifetime.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmManager">
+    <Position X="36.5" Y="5.5" Width="1.75" />
+    <NestedTypes>
+      <Typedef Name="AlarmManager::Timeline" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\AlarmManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="AlarmManager::TimelineRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\AlarmManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAIBAAIAAAAAAAEAABAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\AlarmManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlarmAttorney">
+    <Position X="36.5" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\AlarmAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputComponent">
+    <Position X="33.25" Y="5.5" Width="1.75" />
+    <AssociationLine Name="callback" Type="IInputCallback" FixedFromPoint="true">
+      <Path>
+        <Point X="34.438" Y="8.938" />
+        <Point X="34.438" Y="9.25" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.06" Y="0.11" Height="0.197" Width="0.804" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CgBAgAAAAAAAAAAAAAIBAAAAABAAAgAgAAAgAACAAAA=</HashCode>
+      <FileName>Rivet Engine\InputComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="callback" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IInputCallback">
+    <Position X="33.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAgAACAAAg=</HashCode>
+      <FileName>Rivet Engine\IInputCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardManager">
+    <Position X="30.75" Y="5.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="KeyboardManager::EventType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Typedef Name="KeyboardManager::InputEvent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="KeyboardManager::InputList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="KeyboardManager::InputListRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="KeyboardManager::KeyHandlerMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="KeyboardManager::KeyMapRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\KeyboardManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAAAAIAAABAAABAAEgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\KeyboardManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyHandler">
+    <Position X="28.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAIAgAAABAAEAAAAAAABAACAAAAgCAAAQAA=</HashCode>
+      <FileName>Rivet Engine\KeyHandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InputAttorney">
+    <Position X="31" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Rivet Engine\InputAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionComponent">
+    <Position X="25.5" Y="5.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="CollisionComponent::Volume" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionComponent.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="ICollisionCallback" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="26.5" Y="11" />
+        <Point X="26.5" Y="10.388" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAEMAAIAAAQAACAAAAAAAABAACAAggIAgEAACAgA=</HashCode>
+      <FileName>Rivet Engine\CollisionComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="volume" />
+      <Field Name="defaultSphere" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionVolume">
+    <Position X="22.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAIEAEAAAAAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionVolume.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICollisionCallback">
+    <Position X="25.5" Y="11" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\ICollisionCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSphere" Collapsed="true">
+    <Position X="22.75" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="CollisionVolume" FixedToPoint="true">
+      <Path>
+        <Point X="23.625" Y="7.695" />
+        <Point X="23.625" Y="8.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgIAAAICAAAAAAAAAIEAAAAAAAAAAAAgACgAAAIAAA=</HashCode>
+      <FileName>Rivet Engine\BSphere.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionBox">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEAAAABAQAAAAEAAEAAACAAAAIAAAACAkAAAIBQA=</HashCode>
+      <FileName>Rivet Engine\CollisionBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OBB">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEAAAAAAAAAAAAgAggAAAACAA=</HashCode>
+      <FileName>Rivet Engine\OBB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AABB">
+    <Position X="18" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAIEAAACAAAAAAAAgAAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\AABB.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionAttorney">
+    <Position X="23.25" Y="11" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Rivet Engine\CollisionAttorney.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionGroup">
+    <Position X="21" Y="11" Width="1.75" />
+    <NestedTypes>
+      <Typedef Name="CollisionGroup::CollisionComponentList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionGroup.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CollisionGroup::ColliderListRef" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionGroup.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <AssociationLine Name="partition" Type="AABB" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="21" Y="11.688" />
+        <Point X="18.75" Y="11.688" />
+        <Point X="18.75" Y="10.539" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAABEgACAAgAAAAAAAAAAABAAAABAAAAAEAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionGroup.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="partition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionManager">
+    <Position X="15.5" Y="5.5" Width="2" />
+    <NestedTypes>
+      <Typedef Name="CollisionManager::ObjTypeID" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CollisionManager::GroupCollection" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="CollisionManager::TestCommandList" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\CollisionManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wAAAAAAAAAAAQAAgABAAAAAAAAAAAgAFgAAgoACAAAQ=</HashCode>
+      <FileName>Rivet Engine\CollisionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestCommand">
+    <Position X="12.5" Y="5.5" Width="2.25" />
+    <InheritanceLine Type="Command" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="33.812" Y="2.838" />
+        <Point X="33.812" Y="4.157" />
+        <Point X="13.625" Y="4.157" />
+        <Point X="13.625" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="group1" Type="CollisionGroup" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14.188" Y="7.421" />
+        <Point X="14.188" Y="12.25" />
+        <Point X="21" Y="12.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAgAAAKAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionTestCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="group1" />
+      <Field Name="dispatch" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionDispatchBase">
+    <Position X="9.5" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionDispatchBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionDispatch&lt;C1, C2&gt;">
+    <Position X="6.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAhAAAAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionDispatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollisionTestPairCommand">
+    <Position X="10.25" Y="9" Width="2.5" />
+    <InheritanceLine Type="CollisionTestCommand" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.875" Y="7.421" />
+        <Point X="13.875" Y="10.157" />
+        <Point X="12.75" Y="10.157" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="group2" Type="CollisionGroup" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.188" Y="10.921" />
+        <Point X="12.188" Y="13.062" />
+        <Point X="21" Y="13.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionTestPairCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="group2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CollisionTestTerrainCommand">
+    <Position X="7" Y="9" Width="2.75" />
+    <InheritanceLine Type="CollisionTestCommand" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="13.625" Y="7.421" />
+        <Point X="13.625" Y="8.625" />
+        <Point X="8.375" Y="8.625" />
+        <Point X="8.375" Y="9" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAQAAAAACAAAAAAAAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Rivet Engine\CollisionTestTerrainCommand.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="terrain" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Terrain" Collapsed="true">
+    <Position X="7" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBQgAYAAAGAAAAAIoIACAMCAAAAAACACFAAAQBAACI=</HashCode>
+      <FileName>Rivet Engine\Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpawnComponent">
+    <Position X="57.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAIAAAAIACAAAAhAACAAgAAAgAAAAAgA=</HashCode>
+      <FileName>Rivet Engine\SpawnComponent.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="callback" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ISpawnCallback">
+    <Position X="60.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAIAAAAAgAAAAAAAAAgAAAAAgA=</HashCode>
+      <FileName>Rivet Engine\ISpawnCallback.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActorSpawn">
+    <Position X="60.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="ISpawnCallback" FixedToPoint="true">
+      <Path>
+        <Point X="61.625" Y="7.489" />
+        <Point X="61.625" Y="8" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="actor" Type="Actor" FixedFromPoint="true">
+      <Path>
+        <Point X="60.75" Y="10" />
+        <Point X="59.75" Y="10" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAgAEAAAAAAAwAAAAAgA=</HashCode>
+      <FileName>Rivet Engine\ActorSpawn.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="actor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Actor">
+    <Position X="58.25" Y="9.25" Width="1.5" />
+    <AssociationLine Name="go" Type="GameObject" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="59" Y="11.239" />
+        <Point X="59" Y="14.899" />
+        <Point X="49.25" Y="14.899" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAQAAAAAgAAAAAAAAAggAAAAgA=</HashCode>
+      <FileName>Rivet Engine\Actor.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sp" />
+      <Field Name="go" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="47.5" Y="12.5" Width="1.75" />
+    <NestedTypes>
+      <Typedef Name="GameObject::Key" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="GameObject::AlarmMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="GameObject::CollisionMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="GameObject::DrawMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="GameObject::InputMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="GameObject::UpdateMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Rivet Engine\GameObject.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <AssociationLine Name="nullDraw" Type="NullDraw" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="47.5" Y="13.157" />
+        <Point X="44.438" Y="13.157" />
+        <Point X="44.438" Y="11.127" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="spawn" Type="SpawnComponent" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="49.25" Y="13.667" />
+        <Point X="57.375" Y="13.667" />
+        <Point X="57.375" Y="7.688" />
+        <Point X="57.75" Y="7.688" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="currDraw" Type="DrawComponent" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="47.719" Y="12.5" />
+        <Point X="47.719" Y="8.188" />
+        <Point X="47.5" Y="8.188" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="currUpdate" Type="UpdateComponent" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="48.594" Y="12.5" />
+        <Point X="48.594" Y="6.844" />
+        <Point X="49" Y="6.844" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="nullUpdate" Type="NullUpdate" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="49.25" Y="13.25" />
+        <Point X="52.312" Y="13.25" />
+        <Point X="52.312" Y="10.921" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ATJAQEMEAAEQAkCAAAkAEAABAITADFAAgAAgEAICQAo=</HashCode>
+      <FileName>Rivet Engine\GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="nullDraw" />
+      <Field Name="spawn" />
+      <Field Name="currDraw" />
+      <Field Name="currUpdate" />
+      <Field Name="nullUpdate" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="RegistrationState">
+    <Position X="39.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Rivet Engine\RegistrationState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9.75" />
+</ClassDiagram>

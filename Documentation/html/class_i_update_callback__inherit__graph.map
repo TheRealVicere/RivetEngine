@@ -1,0 +1,5 @@
+<map id="IUpdateCallback" name="IUpdateCallback">
+<area shape="rect" id="node1" title="A callback to perform the duties of an update component." alt="" coords="123,5,323,215"/>
+<area shape="rect" id="node2" href="$class_god_cam_update.html" title="An update callback for the god camera." alt="" coords="5,263,211,545"/>
+<area shape="rect" id="node3" href="$class_null_update.html" title="An update callback that does nothing." alt="" coords="235,314,440,494"/>
+</map>

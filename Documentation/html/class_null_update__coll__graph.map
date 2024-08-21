@@ -1,0 +1,4 @@
+<map id="NullUpdate" name="NullUpdate">
+<area shape="rect" id="node1" title="An update callback that does nothing." alt="" coords="5,263,211,443"/>
+<area shape="rect" id="node2" href="$class_i_update_callback.html" title="A callback to perform the duties of an update component." alt="" coords="8,5,208,215"/>
+</map>

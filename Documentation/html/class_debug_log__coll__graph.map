@@ -1,0 +1,11 @@
+<map id="DebugLog" name="DebugLog">
+<area shape="rect" id="node1" title="A debug tool that logs user&#45;specified information on the display." alt="" coords="154,1196,353,1581"/>
+<area shape="rect" id="node2" href="$class_sprite_font.html" title="A text font broken down into sprites (&quot;glyphs&quot;) of each character, used for text display." alt="" coords="107,667,293,949"/>
+<area shape="rect" id="node3" title=" " alt="" coords="29,475,110,553"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,159,133,251"/>
+<area shape="rect" id="node5" title=" " alt="" coords="134,475,309,553"/>
+<area shape="rect" id="node6" href="$class_sprite.html" title="An image used as a model for a game object." alt="" coords="223,5,409,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="333,468,469,560"/>
+<area shape="rect" id="node7" title=" " alt="" coords="301,1056,469,1133"/>
+<area shape="rect" id="node8" href="$class_sprite_string.html" title="A string that can be displayed in a scene via sprites." alt="" coords="317,623,485,993"/>
+</map>

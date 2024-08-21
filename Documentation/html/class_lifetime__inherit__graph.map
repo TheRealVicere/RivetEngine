@@ -1,0 +1,4 @@
+<map id="Lifetime" name="Lifetime">
+<area shape="rect" id="node1" title="An alarm that despawns an object after a specified time." alt="" coords="12,248,193,443"/>
+<area shape="rect" id="node2" href="$class_i_alarm_callback.html" title="A callback to perform the duties of an alarm component." alt="" coords="5,5,200,200"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="BSphere" name="BSphere">
+<area shape="rect" id="node1" title="A sphere surrounding an object with collision functionality. Used for collision testing." alt="" coords="11,483,198,912"/>
+<area shape="rect" id="node2" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="5,5,204,435"/>
+</map>

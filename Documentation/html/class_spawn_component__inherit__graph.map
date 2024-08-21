@@ -1,0 +1,4 @@
+<map id="SpawnComponent" name="SpawnComponent">
+<area shape="rect" id="node1" title="An actor or other object used in a game scene." alt="" coords="5,336,284,633"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="31,5,258,288"/>
+</map>

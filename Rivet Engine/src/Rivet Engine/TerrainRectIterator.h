@@ -1,0 +1,89 @@
+#ifndef TerrainRectIterator_H
+#define TerrainRectIterator_H
+
+class TerrainRect;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// \class	TerrainRectIterator
+///
+/// \brief	A terrain rectangle iterator.
+///
+/// \author	Mike Piunti
+/// \date	05/17/2023
+////////////////////////////////////////////////////////////////////////////////////////////////////
+class TerrainRectIterator {
+public:
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	TerrainRectIterator::TerrainRectIterator(TerrainRect* r);
+	///
+	/// \brief	Constructor. Creates an iterator over the given terrain rectangle.
+	///
+	/// \param	r	The rectangle to iterate over.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	TerrainRectIterator(TerrainRect* r);
+
+	TerrainRectIterator() = delete;
+	TerrainRectIterator(const TerrainRectIterator& other);
+	TerrainRectIterator& operator=(const TerrainRectIterator& other);
+	~TerrainRectIterator();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	TerrainRectIterator& TerrainRectIterator::operator++();
+	///
+	/// \brief	Increment operator. Moves to the next cell in the rectangle.
+	///
+	/// \returns	This object with an incremented counter.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	TerrainRectIterator& operator++();
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	TerrainRect& TerrainRectIterator::operator*() const;
+	///
+	/// \brief	Indirection operator. Dereferences this object.
+	///
+	/// \returns	The terrain rectangle for this iterator.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	TerrainRect& operator*() const;
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	TerrainRect* TerrainRectIterator::operator->() const;
+	///
+	/// \brief	Member dereference operator. Dereferences this object.
+	///
+	/// \returns	A pointer to the terrain rectangle for this iterator.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	TerrainRect* operator->() const;
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	friend bool TerrainRectIterator::operator==(const TerrainRectIterator& a, const TerrainRectIterator& b);
+	///
+	/// \brief	Equality operator.
+	///
+	/// \param 	a	The first instance to compare.
+	/// \param 	b	The second instance to compare.
+	///
+	/// \returns	True if the instances share the same data.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	friend bool operator==(const TerrainRectIterator& a,
+		const TerrainRectIterator& b);
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	friend bool TerrainRectIterator::operator!=(const TerrainRectIterator& a, const TerrainRectIterator& b);
+	///
+	/// \brief	Inequality operator.
+	///
+	/// \param 	a	The first instance to compare.
+	/// \param 	b	The second instance to compare.
+	///
+	/// \returns	True if the instances have at least one differing data member.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	friend bool operator!=(const TerrainRectIterator& a,
+		const TerrainRectIterator& b);
+
+private:
+
+	/// \brief	The terrain rectangle to iterate over.
+	TerrainRect* rect;
+};
+
+#endif

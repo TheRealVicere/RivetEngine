@@ -1,0 +1,6 @@
+<map id="AlarmComponent" name="AlarmComponent">
+<area shape="rect" id="node1" title="Adds alarm functionality to game objects." alt="" coords="175,579,414,920"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,263,232,516"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,5,218,185"/>
+<area shape="rect" id="node4" href="$class_i_alarm_callback.html" title="A callback to perform the duties of an alarm component." alt="" coords="256,292,451,487"/>
+</map>

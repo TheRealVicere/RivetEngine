@@ -1,0 +1,4 @@
+<map id="DrawComponent" name="DrawComponent">
+<area shape="rect" id="node1" title="Allows game objects to be rendered to the display." alt="" coords="5,336,264,633"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="21,5,248,288"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="ICollisionCallback" name="ICollisionCallback">
+<area shape="rect" id="node1" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="5,5,200,215"/>
+</map>

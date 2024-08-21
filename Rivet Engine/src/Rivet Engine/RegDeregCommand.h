@@ -1,0 +1,44 @@
+#ifndef RegDeregCommand_H
+#define RegDeregCommand_H
+
+#include "Command.h"
+
+class Component;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+/// \class	RegDeregCommand
+///
+/// \brief	A base command for component registration and deregistration.
+///
+/// \author	Mike Piunti
+/// \date	04/12/2023
+////////////////////////////////////////////////////////////////////////////////////////////////////
+class RegDeregCommand : public Command {
+public:
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	RegDeregCommand::RegDeregCommand(Component* c);
+	///
+	/// \brief	Creates a command to (de)register the given component.
+	///
+	/// \param	c	The component to (de)register.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	RegDeregCommand(Component* c);
+
+	RegDeregCommand() = delete;
+	RegDeregCommand(const RegDeregCommand&) = delete;
+	RegDeregCommand& operator=(const RegDeregCommand&) = delete;
+	virtual ~RegDeregCommand() = default;
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	/// \fn	virtual void RegDeregCommand::Execute() = 0;
+	///
+	/// \brief	(De)registers the stored component.
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	virtual void Execute() = 0;
+
+protected:
+	/// \brief	The component to (de)register.
+	Component* component;
+};
+
+#endif

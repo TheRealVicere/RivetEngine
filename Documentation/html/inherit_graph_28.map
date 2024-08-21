@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_i_update_callback.html" title="A callback to perform the duties of an update component." alt="" coords="5,31,129,56"/>
+<area shape="rect" id="node2" href="$class_god_cam_update.html" title="An update callback for the god camera." alt="" coords="177,5,299,31"/>
+<area shape="rect" id="node3" href="$class_null_update.html" title="An update callback that does nothing." alt="" coords="193,55,283,80"/>
+</map>

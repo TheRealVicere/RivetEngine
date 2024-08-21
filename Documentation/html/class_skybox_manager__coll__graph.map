@@ -1,0 +1,7 @@
+<map id="SkyboxManager" name="SkyboxManager">
+<area shape="rect" id="node1" title="Manager for skyboxes. Loads, stores, and accesses skyboxes for use in games." alt="" coords="92,588,287,973"/>
+<area shape="rect" id="node2" title=" " alt="" coords="225,227,306,305"/>
+<area shape="rect" id="node4" title=" " alt="" coords="7,448,217,525"/>
+<area shape="rect" id="node3" title=" " alt="" coords="201,5,329,97"/>
+<area shape="rect" id="node5" href="$class_skybox.html" title="A default skybox for level design." alt="" coords="5,147,200,385"/>
+</map>

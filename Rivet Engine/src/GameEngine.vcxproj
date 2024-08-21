@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3167A812-5D2C-4EE9-ACFD-F0E959384755}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>spinnycube</RootNamespace>
+    <ProjectName>RivetEngine</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_Debug</TargetName>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>false</GenerateManifest>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)extern\glfw-2.7.6\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)bin\</OutDir>
+    <IntDir>$(ProjectName)_$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions);WINDOWS_TARGET_PLATFORM="$(TargetPlatformVersion)";MEMORY_LOGS_DIR=R"($(SolutionDir))"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dist\Math\include;$(SolutionDir)dist\SB6\include;$(SolutionDir)dist\GLFW\include;$(SolutionDir)dist\File\include;$(SolutionDir)dist\AzulCore\include</AdditionalIncludeDirectories>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>
+      </SDLCheck>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableParallelCodeGeneration>false</EnableParallelCodeGeneration>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <OpenMPSupport>false</OpenMPSupport>
+      <UseUnicodeForAssemblerListing>false</UseUnicodeForAssemblerListing>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <ForcedIncludeFiles>$(ProjectDir)MemTracker\Framework.h</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRTD.lib</IgnoreSpecificDefaultLibraries>
+      <ShowProgress>NotSet</ShowProgress>
+      <LinkStatus>
+      </LinkStatus>
+      <TreatLinkerWarningAsErrors>true</TreatLinkerWarningAsErrors>
+      <AdditionalDependencies>xmllite.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h" />
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h" />
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Image.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h" />
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Model.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ModelTools.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h" />
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h" />
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h" />
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h" />
+    <ClInclude Include="..\dist\File\include\File.h" />
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h" />
+    <ClInclude Include="..\dist\Math\include\Align16.h" />
+    <ClInclude Include="..\dist\Math\include\Constants.h" />
+    <ClInclude Include="..\dist\Math\include\Enum.h" />
+    <ClInclude Include="..\dist\Math\include\MathApp.h" />
+    <ClInclude Include="..\dist\Math\include\MathEngine.h" />
+    <ClInclude Include="..\dist\Math\include\Matrix.h" />
+    <ClInclude Include="..\dist\Math\include\Quat.h" />
+    <ClInclude Include="..\dist\Math\include\QuatApp.h" />
+    <ClInclude Include="..\dist\Math\include\Util.h" />
+    <ClInclude Include="..\dist\Math\include\Vect.h" />
+    <ClInclude Include="..\dist\Math\include\VectApp.h" />
+    <ClInclude Include="..\dist\SB6\include\arcball.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h" />
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h" />
+    <ClInclude Include="..\dist\SB6\include\object.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h" />
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h" />
+    <ClInclude Include="..\dist\SB6\include\shader.h" />
+    <ClInclude Include="..\dist\SB6\include\vmath.h" />
+    <ClInclude Include="MemTracker\Framework.h" />
+    <ClInclude Include="MemTracker\ProjectSettings.h" />
+    <ClInclude Include="Rivet Engine\AABB.h" />
+    <ClInclude Include="Rivet Engine\Actor.h" />
+    <ClInclude Include="Rivet Engine\ActorSpawn.h" />
+    <ClInclude Include="Rivet Engine\AlarmComponent.h" />
+    <ClInclude Include="Rivet Engine\AlarmManager.h" />
+    <ClInclude Include="Rivet Engine\AlarmAttorney.h" />
+    <ClInclude Include="Rivet Engine\AssetAttorney.h" />
+    <ClInclude Include="Rivet Engine\BoxDrawCommand.h" />
+    <ClInclude Include="Rivet Engine\BSphere.h" />
+    <ClInclude Include="Rivet Engine\CameraManager.h" />
+    <ClInclude Include="Rivet Engine\CollisionComponent.h" />
+    <ClInclude Include="Rivet Engine\CollisionAttorney.h" />
+    <ClInclude Include="Rivet Engine\CollisionBox.h" />
+    <ClInclude Include="Rivet Engine\CollisionDispatch.h" />
+    <ClInclude Include="Rivet Engine\CollisionDispatchBase.h" />
+    <ClInclude Include="Rivet Engine\CollisionDrawCommand.h" />
+    <ClInclude Include="Rivet Engine\CollisionTestTerrainCommand.h" />
+    <ClInclude Include="Rivet Engine\CollisionUpdateAttorney.h" />
+    <ClInclude Include="Rivet Engine\Component.h" />
+    <ClInclude Include="Rivet Engine\ComponentIncludes.h" />
+    <ClInclude Include="Rivet Engine\DeregCommand.h" />
+    <ClInclude Include="Rivet Engine\GameObject.h" />
+    <ClInclude Include="Rivet Engine\GodCamInput.h" />
+    <ClInclude Include="Rivet Engine\GodCamUpdate.h" />
+    <ClInclude Include="Rivet Engine\IAlarmCallback.h" />
+    <ClInclude Include="Rivet Engine\ICollisionCallback.h" />
+    <ClInclude Include="Rivet Engine\IDrawCallback.h" />
+    <ClInclude Include="Rivet Engine\IInputCallback.h" />
+    <ClInclude Include="Rivet Engine\ISpawnCallback.h" />
+    <ClInclude Include="Rivet Engine\IUpdateCallback.h" />
+    <ClInclude Include="Rivet Engine\Lifetime.h" />
+    <ClInclude Include="Rivet Engine\NullDraw.h" />
+    <ClInclude Include="Rivet Engine\NullSkybox.h" />
+    <ClInclude Include="Rivet Engine\NullTerrain.h" />
+    <ClInclude Include="Rivet Engine\NullUpdate.h" />
+    <ClInclude Include="Rivet Engine\OBB.h" />
+    <ClInclude Include="Rivet Engine\RegCommand.h" />
+    <ClInclude Include="Rivet Engine\RegDeregCommand.h" />
+    <ClInclude Include="Rivet Engine\RegistryAttorney.h" />
+    <ClInclude Include="Rivet Engine\SkyboxManager.h" />
+    <ClInclude Include="Rivet Engine\SphereDrawCommand.h" />
+    <ClInclude Include="Rivet Engine\CollisionGroup.h" />
+    <ClInclude Include="Rivet Engine\CollisionManager.h" />
+    <ClInclude Include="Rivet Engine\CollisionTestCommand.h" />
+    <ClInclude Include="Rivet Engine\CollisionTestPairCommand.h" />
+    <ClInclude Include="Rivet Engine\CollisionVolume.h" />
+    <ClInclude Include="Rivet Engine\Colors.h" />
+    <ClInclude Include="Rivet Engine\Command.h" />
+    <ClInclude Include="Rivet Engine\DebugAttorney.h" />
+    <ClInclude Include="Rivet Engine\Debugger.h" />
+    <ClInclude Include="Rivet Engine\DebugLog.h" />
+    <ClInclude Include="Rivet Engine\DrawComponent.h" />
+    <ClInclude Include="Rivet Engine\DrawManager.h" />
+    <ClInclude Include="Rivet Engine\DrawAttorney.h" />
+    <ClInclude Include="Rivet Engine\FreezeTime.h" />
+    <ClInclude Include="Rivet Engine\SpawnComponent.h" />
+    <ClInclude Include="Rivet Engine\GameTimer.h" />
+    <ClInclude Include="Rivet Engine\GodCam.h" />
+    <ClInclude Include="Rivet Engine\ImageManager.h" />
+    <ClInclude Include="Rivet Engine\InputComponent.h" />
+    <ClInclude Include="Rivet Engine\InputAttorney.h" />
+    <ClInclude Include="Rivet Engine\KeyboardManager.h" />
+    <ClInclude Include="Rivet Engine\KeyHandler.h" />
+    <ClInclude Include="Rivet Engine\MathTools.h" />
+    <ClInclude Include="Rivet Engine\ModelManager.h" />
+    <ClInclude Include="Rivet Engine\NullSceneCommand.h" />
+    <ClInclude Include="Rivet Engine\SpawnAttorney.h" />
+    <ClInclude Include="Rivet Engine\RegistrationState.h" />
+    <ClInclude Include="Rivet Engine\Rivet.h" />
+    <ClInclude Include="Rivet Engine\Scene.h" />
+    <ClInclude Include="Rivet Engine\SceneAttorney.h" />
+    <ClInclude Include="Rivet Engine\SceneChangeAttorney.h" />
+    <ClInclude Include="Rivet Engine\SceneChangeCommand.h" />
+    <ClInclude Include="Rivet Engine\SceneCommand.h" />
+    <ClInclude Include="Rivet Engine\SceneManager.h" />
+    <ClInclude Include="Rivet Engine\SceneRegistrationBroker.h" />
+    <ClInclude Include="Rivet Engine\ShaderManager.h" />
+    <ClInclude Include="Rivet Engine\Skybox.h" />
+    <ClInclude Include="Rivet Engine\Sprite.h" />
+    <ClInclude Include="Rivet Engine\SpriteFont.h" />
+    <ClInclude Include="Rivet Engine\SpriteFontManager.h" />
+    <ClInclude Include="Rivet Engine\SpriteString.h" />
+    <ClInclude Include="Rivet Engine\Terrain.h" />
+    <ClInclude Include="Rivet Engine\TerrainManager.h" />
+    <ClInclude Include="Rivet Engine\TerrainRect.h" />
+    <ClInclude Include="Rivet Engine\TerrainRectIterator.h" />
+    <ClInclude Include="Rivet Engine\TextureManager.h" />
+    <ClInclude Include="Rivet Engine\TimeAttorney.h" />
+    <ClInclude Include="Rivet Engine\UpdateComponent.h" />
+    <ClInclude Include="Rivet Engine\UpdateManager.h" />
+    <ClInclude Include="Rivet Engine\UpdateAttorney.h" />
+    <ClInclude Include="User Code\AITank.h" />
+    <ClInclude Include="User Code\AITankDraw.h" />
+    <ClInclude Include="User Code\AITankUpdate.h" />
+    <ClInclude Include="User Code\Bullet.h" />
+    <ClInclude Include="User Code\BulletCollision.h" />
+    <ClInclude Include="User Code\BulletDraw.h" />
+    <ClInclude Include="User Code\BulletFactory.h" />
+    <ClInclude Include="User Code\BulletPool.h" />
+    <ClInclude Include="User Code\BulletUpdate.h" />
+    <ClInclude Include="User Code\DemoScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\DemoScene2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\Enemy.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyAlarm.h" />
+    <ClInclude Include="User Code\EnemyFactory.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyPool.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyUpdate.h" />
+    <ClInclude Include="User Code\GameOverDraw.h" />
+    <ClInclude Include="User Code\KillScene.h" />
+    <ClInclude Include="User Code\PlayerTankBodyCollision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankCollision.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankDraw.h" />
+    <ClInclude Include="User Code\PlayerTankUpdate.h" />
+    <ClInclude Include="User Code\ResetInput.h" />
+    <ClInclude Include="User Code\PlayerTank.h" />
+    <ClInclude Include="User Code\InitScene.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="User Code\Rock.h" />
+    <ClInclude Include="User Code\RockCollision.h" />
+    <ClInclude Include="User Code\RockDraw.h" />
+    <ClInclude Include="User Code\SceneSequence.h" />
+    <ClInclude Include="User Code\SentryUpdate.h" />
+    <ClInclude Include="User Code\Tank.h" />
+    <ClInclude Include="User Code\TankBodyCollision.h" />
+    <ClInclude Include="User Code\TankCollision.h" />
+    <ClInclude Include="User Code\TankDraw.h" />
+    <ClInclude Include="User Code\PlayerTankInput.h" />
+    <ClInclude Include="User Code\TankUpdate.h" />
+    <ClInclude Include="User Code\TerrainTestScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib" />
+    <Library Include="..\dist\File\lib\File_Debug.lib" />
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib" />
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib" />
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Rivet Engine\AABB.cpp" />
+    <ClCompile Include="Rivet Engine\Actor.cpp" />
+    <ClCompile Include="Rivet Engine\ActorSpawn.cpp" />
+    <ClCompile Include="Rivet Engine\AlarmComponent.cpp" />
+    <ClCompile Include="Rivet Engine\AlarmManager.cpp" />
+    <ClCompile Include="Rivet Engine\BoxDrawCommand.cpp" />
+    <ClCompile Include="Rivet Engine\BSphere.cpp" />
+    <ClCompile Include="Rivet Engine\CameraManager.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionComponent.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionBox.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionTestTerrainCommand.cpp" />
+    <ClCompile Include="Rivet Engine\Component.cpp" />
+    <ClCompile Include="Rivet Engine\DeregCommand.cpp" />
+    <ClCompile Include="Rivet Engine\GameObject.cpp" />
+    <ClCompile Include="Rivet Engine\GodCamUpdate.cpp" />
+    <ClCompile Include="Rivet Engine\NullTerrain.cpp" />
+    <ClCompile Include="Rivet Engine\OBB.cpp" />
+    <ClCompile Include="Rivet Engine\RegCommand.cpp" />
+    <ClCompile Include="Rivet Engine\RegDeregCommand.cpp" />
+    <ClCompile Include="Rivet Engine\SkyboxManager.cpp" />
+    <ClCompile Include="Rivet Engine\SphereDrawCommand.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionGroup.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionManager.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionTestCommand.cpp" />
+    <ClCompile Include="Rivet Engine\CollisionTestPairCommand.cpp" />
+    <ClCompile Include="Rivet Engine\Debugger.cpp" />
+    <ClCompile Include="Rivet Engine\DebugLog.cpp" />
+    <ClCompile Include="Rivet Engine\DrawComponent.cpp" />
+    <ClCompile Include="Rivet Engine\DrawManager.cpp" />
+    <ClCompile Include="Rivet Engine\FreezeTime.cpp" />
+    <ClCompile Include="Rivet Engine\SpawnComponent.cpp" />
+    <ClCompile Include="Rivet Engine\GameTimer.cpp" />
+    <ClCompile Include="Rivet Engine\GodCam.cpp" />
+    <ClCompile Include="Rivet Engine\ImageManager.cpp" />
+    <ClCompile Include="Rivet Engine\InputComponent.cpp" />
+    <ClCompile Include="Rivet Engine\KeyboardManager.cpp" />
+    <ClCompile Include="Rivet Engine\KeyHandler.cpp" />
+    <ClCompile Include="Rivet Engine\MathTools.cpp" />
+    <ClCompile Include="Rivet Engine\ModelManager.cpp" />
+    <ClCompile Include="Rivet Engine\NullSceneCommand.cpp" />
+    <ClCompile Include="Rivet Engine\Rivet.cpp" />
+    <ClCompile Include="Rivet Engine\main.cpp" />
+    <ClCompile Include="Rivet Engine\Scene.cpp" />
+    <ClCompile Include="Rivet Engine\SceneChangeCommand.cpp" />
+    <ClCompile Include="Rivet Engine\SceneManager.cpp" />
+    <ClCompile Include="Rivet Engine\SceneRegistrationBroker.cpp" />
+    <ClCompile Include="Rivet Engine\ShaderManager.cpp" />
+    <ClCompile Include="Rivet Engine\Skybox.cpp" />
+    <ClCompile Include="Rivet Engine\Sprite.cpp" />
+    <ClCompile Include="Rivet Engine\SpriteFont.cpp" />
+    <ClCompile Include="Rivet Engine\SpriteFontManager.cpp" />
+    <ClCompile Include="Rivet Engine\SpriteString.cpp" />
+    <ClCompile Include="Rivet Engine\Terrain.cpp" />
+    <ClCompile Include="Rivet Engine\TerrainManager.cpp" />
+    <ClCompile Include="Rivet Engine\TerrainRect.cpp" />
+    <ClCompile Include="Rivet Engine\TerrainRectIterator.cpp" />
+    <ClCompile Include="Rivet Engine\TextureManager.cpp" />
+    <ClCompile Include="Rivet Engine\UpdateComponent.cpp" />
+    <ClCompile Include="Rivet Engine\UpdateManager.cpp" />
+    <ClCompile Include="Rivet Resources\GameEnd.cpp" />
+    <ClCompile Include="Rivet Resources\GameStart.cpp" />
+    <ClCompile Include="Rivet Resources\LoadAllResources.cpp" />
+    <ClCompile Include="User Code\AITank.cpp" />
+    <ClCompile Include="User Code\AITankDraw.cpp" />
+    <ClCompile Include="User Code\AITankUpdate.cpp" />
+    <ClCompile Include="User Code\Bullet.cpp" />
+    <ClCompile Include="User Code\BulletCollision.cpp" />
+    <ClCompile Include="User Code\BulletDraw.cpp" />
+    <ClCompile Include="User Code\BulletFactory.cpp" />
+    <ClCompile Include="User Code\BulletPool.cpp" />
+    <ClCompile Include="User Code\BulletUpdate.cpp" />
+    <ClCompile Include="User Code\DemoScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\DemoScene2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\Enemy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyFactory.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyPool.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyUpdate.cpp" />
+    <ClCompile Include="User Code\GameOverDraw.cpp" />
+    <ClCompile Include="User Code\KillScene.cpp" />
+    <ClCompile Include="User Code\PlayerTankBodyCollision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankCollision.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankDraw.cpp" />
+    <ClCompile Include="User Code\PlayerTankUpdate.cpp" />
+    <ClCompile Include="User Code\ResetInput.cpp" />
+    <ClCompile Include="User Code\PlayerTank.cpp" />
+    <ClCompile Include="User Code\InitScene.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="User Code\Rock.cpp" />
+    <ClCompile Include="User Code\RockDraw.cpp" />
+    <ClCompile Include="User Code\SceneSequence.cpp" />
+    <ClCompile Include="User Code\SentryUpdate.cpp" />
+    <ClCompile Include="User Code\Tank.cpp" />
+    <ClCompile Include="User Code\TankBodyCollision.cpp" />
+    <ClCompile Include="User Code\TankCollision.cpp" />
+    <ClCompile Include="User Code\TankDraw.cpp" />
+    <ClCompile Include="User Code\TankUpdate.cpp" />
+    <ClCompile Include="User Code\TerrainTestScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Components.cd" />
+    <None Include="Terrain.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

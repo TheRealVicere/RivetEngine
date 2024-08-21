@@ -1,0 +1,5 @@
+<map id="SceneChangeCommand" name="SceneChangeCommand">
+<area shape="rect" id="node1" title="A command to change game scenes." alt="" coords="5,491,220,759"/>
+<area shape="rect" id="node2" href="$class_scene_command.html" title="The base scene change command." alt="" coords="13,233,212,443"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="13,5,212,185"/>
+</map>

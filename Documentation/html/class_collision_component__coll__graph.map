@@ -1,0 +1,8 @@
+<map id="CollisionComponent" name="CollisionComponent">
+<area shape="rect" id="node1" title="Adds collision processing to game objects." alt="" coords="319,1004,531,1463"/>
+<area shape="rect" id="node2" href="$class_component.html" title="A game object component used to add functionality to objects." alt="" coords="5,600,232,853"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="19,130,218,310"/>
+<area shape="rect" id="node4" href="$class_i_collision_callback.html" title="A callback to perform the duties of a collision component. User&#45;defined derived classes should inheri..." alt="" coords="256,622,451,831"/>
+<area shape="rect" id="node5" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="450,5,649,435"/>
+<area shape="rect" id="node6" href="$class_b_sphere.html" title="A sphere surrounding an object with collision functionality. Used for collision testing." alt="" coords="576,512,763,941"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ActorSpawn" name="ActorSpawn">
+<area shape="rect" id="node1" title="A generic spawn callback for actors." alt="" coords="5,263,220,472"/>
+<area shape="rect" id="node2" href="$class_i_spawn_callback.html" title="A callback to perform the duties of a spawn component. User&#45;defined derived classes should hold the g..." alt="" coords="13,5,213,215"/>
+</map>

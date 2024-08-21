@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_actor.html" title="An object that can be spawned into and out of a scene." alt="" coords="5,5,56,31"/>
+<area shape="rect" id="node2" href="$class_god_cam.html" title="A free camera used during debugging, independent from the game camera." alt="" coords="104,5,183,31"/>
+</map>

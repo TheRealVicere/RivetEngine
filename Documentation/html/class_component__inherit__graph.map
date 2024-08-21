@@ -1,0 +1,9 @@
+<map id="Component" name="Component">
+<area shape="rect" id="node1" title="A game object component used to add functionality to objects." alt="" coords="663,5,890,288"/>
+<area shape="rect" id="node2" href="$class_alarm_component.html" title="Adds alarm functionality to game objects." alt="" coords="5,402,244,758"/>
+<area shape="rect" id="node3" href="$class_collision_component.html" title="Adds collision processing to game objects." alt="" coords="268,336,480,824"/>
+<area shape="rect" id="node4" href="$class_draw_component.html" title="Allows game objects to be rendered to the display." alt="" coords="505,431,763,729"/>
+<area shape="rect" id="node5" href="$class_input_component.html" title="Allows functionality for processing specialized inputs (ie. not raw)." alt="" coords="787,387,1051,773"/>
+<area shape="rect" id="node6" href="$class_spawn_component.html" title="An actor or other object used in a game scene." alt="" coords="1076,431,1355,729"/>
+<area shape="rect" id="node7" href="$class_update_component.html" title="Allows updating game object properties." alt="" coords="1379,417,1588,743"/>
+</map>

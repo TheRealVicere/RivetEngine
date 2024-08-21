@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine">
+      <UniqueIdentifier>{4037dc0a-d207-446c-9738-9879438c879f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management">
+      <UniqueIdentifier>{3a1f74a3-f18b-4fd3-9a67-bd574c6767d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemTracker">
+      <UniqueIdentifier>{7d7d40a8-4d91-415a-9d08-e38629a37a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Camera Management">
+      <UniqueIdentifier>{be0a7554-bb63-43c4-b271-6eadcf56a7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Resources">
+      <UniqueIdentifier>{c73738ce-c581-489b-b71e-ab0fcd79c8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes">
+      <UniqueIdentifier>{f8a5bfb4-f944-417c-b96c-016a79f943bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Scenes">
+      <UniqueIdentifier>{37ad147e-a7cc-4988-a9d2-6b2a1d30669b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Scene Management">
+      <UniqueIdentifier>{2de28b5f-0b18-4339-a0d9-e8ee43d8097f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Scene Management\Registration">
+      <UniqueIdentifier>{6f5aaf50-9b6c-4dcb-afff-b6c805813b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Scene Management\Commands">
+      <UniqueIdentifier>{aaaf24f9-e45c-4bbd-bdb0-8b70c3d27097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools">
+      <UniqueIdentifier>{d74ba67a-f103-4062-8a52-07180492cc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Debug Tools">
+      <UniqueIdentifier>{e1320189-8f64-4c0d-b39c-4145f14f4ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Models">
+      <UniqueIdentifier>{a7990f19-cc0d-4320-99f3-24f0ab23d858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Shaders">
+      <UniqueIdentifier>{b0483246-73c0-4189-8f33-559a08ecc6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Textures">
+      <UniqueIdentifier>{0bb815c9-3785-416b-ae81-7d77d708bc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Images">
+      <UniqueIdentifier>{c3da5224-2a36-423a-ae26-47630e19f86c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Sprites">
+      <UniqueIdentifier>{524607b6-eec3-470e-a1d0-32afcf6d8848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Text Display">
+      <UniqueIdentifier>{eb84bb6c-ca87-46f3-9863-304391a79bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Fonts">
+      <UniqueIdentifier>{008add1f-ca4e-4529-a229-7f9a407fe4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Generic Models">
+      <UniqueIdentifier>{3c72c8eb-2443-4d9e-900e-4beb3ac07c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Debug Tools\Debugger">
+      <UniqueIdentifier>{deac347b-3806-4c72-a4bc-79c456a37e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Debug Tools\God Camera">
+      <UniqueIdentifier>{b3c9c686-3596-48f8-89a9-3a0c7f04c0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands">
+      <UniqueIdentifier>{eb1608f6-e2bb-489c-9808-1e0686a80857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code">
+      <UniqueIdentifier>{c9ed4090-f320-4130-851d-3d1f18ce8184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes">
+      <UniqueIdentifier>{b582f572-4bfb-4efa-953f-72a41c36b0e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Component Callbacks">
+      <UniqueIdentifier>{88b5e46a-6f3f-4237-9431-204db7cfd973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Terrain">
+      <UniqueIdentifier>{07293b1a-2da2-4703-b739-512336db3462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Generic Models\Skybox">
+      <UniqueIdentifier>{964bf80c-2658-4639-9580-0f02e40312d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Generic Models\Terrain">
+      <UniqueIdentifier>{63810860-8aff-4b10-82a6-c64f5f7b9c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Generic Models\Terrain\Rectangles">
+      <UniqueIdentifier>{e38ebe29-641b-4b38-ae53-477fa8bd6e3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Developer Tools\Debug Tools\God Camera\Callbacks">
+      <UniqueIdentifier>{74c71f3e-e6f0-41cb-ae30-928e54f65b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects">
+      <UniqueIdentifier>{28c15330-f6d1-42c2-b8a3-7a180c621620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components">
+      <UniqueIdentifier>{8fe04beb-8cbf-4cf6-9325-3bb52a8d71cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Key Input">
+      <UniqueIdentifier>{5718c239-163f-4bc8-ae8b-31b977fe4517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Key Input\Management">
+      <UniqueIdentifier>{7c7085e5-0f51-46b9-a779-9646e5c28b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Alarm">
+      <UniqueIdentifier>{51c90ee4-4a47-49c0-8270-866ca3369396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Alarm\Management">
+      <UniqueIdentifier>{a54ff5f2-fa1b-413a-8f17-233519551a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision">
+      <UniqueIdentifier>{8bd8ad2f-8f4b-4e57-b319-3dae6097cf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision\Management">
+      <UniqueIdentifier>{38feaa47-7f6e-4d56-9b63-a7d5d9ae2bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision\Commands">
+      <UniqueIdentifier>{7c1079c7-897c-4c04-b2cc-c12e43254689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing">
+      <UniqueIdentifier>{848cc651-3270-4712-8988-e07d8a708bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision\Commands\Dispatch">
+      <UniqueIdentifier>{c6394cd5-9249-4669-8943-b76be9e00e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Collision\Volumes">
+      <UniqueIdentifier>{a5627ee4-5d03-4994-84fa-0ca802073412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Draw">
+      <UniqueIdentifier>{d14afcec-04df-485e-915c-5b5f8e184377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Draw\Management">
+      <UniqueIdentifier>{011eba2e-b665-48a0-aa91-4cbfc35f61d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Update">
+      <UniqueIdentifier>{865539c5-76bb-421e-948e-d34d2d4a8578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Update\Management">
+      <UniqueIdentifier>{9a1c9a5d-50a9-4f08-89ee-117791ce0782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Spawn">
+      <UniqueIdentifier>{ae591d25-8bad-42bd-96a9-974ce305c603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Registry">
+      <UniqueIdentifier>{84f9a7da-ba7f-4f4b-999c-995ecacc9e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Game Objects\Components\Registry\Commands">
+      <UniqueIdentifier>{d63a5169-63bd-4f88-9042-daf0c1d5552c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Engine">
+      <UniqueIdentifier>{d20a8271-753a-4d22-9622-7f233c7845f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Engine\Game Timer">
+      <UniqueIdentifier>{13766dd0-3c98-4e8b-ade0-e7787e87c6eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\Asset Management\Skybox">
+      <UniqueIdentifier>{c3052d5e-e961-47b9-a98c-5c559ccb1024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived">
+      <UniqueIdentifier>{f6d9b8a2-1941-4c16-9624-ddf49c748b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Actor">
+      <UniqueIdentifier>{b1ef312e-39cf-4321-8cd8-9848527ec58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors">
+      <UniqueIdentifier>{265a9fed-0f81-46b4-a7f3-66e8fe81654f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Bullet">
+      <UniqueIdentifier>{7e3f1cfb-715e-45e8-b454-45f4664af67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Bullet\Factory">
+      <UniqueIdentifier>{cbe72a8e-9a6c-4bd3-a2b6-4673718f82d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Bullet\Callbacks">
+      <UniqueIdentifier>{8560737f-8986-414d-b8b5-4595400739fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks">
+      <UniqueIdentifier>{dec80023-4c16-4e32-b670-7d4aac14a7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Enemy">
+      <UniqueIdentifier>{f7c7e376-fbf1-45ed-91f1-f671ca76e677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Enemy\Factory">
+      <UniqueIdentifier>{d75a18f1-586a-4672-9096-fa1bcbf8e659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Enemy\Callbacks">
+      <UniqueIdentifier>{2ca31ee1-e42a-4678-9127-a31198a52caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player">
+      <UniqueIdentifier>{20312921-4539-459b-b532-fb5146d6ca2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player\Callbacks">
+      <UniqueIdentifier>{267c3ca1-df2d-4465-b2e3-153dcff69841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player\Callbacks\Support">
+      <UniqueIdentifier>{0d63a08c-c0b7-4f59-b891-c3eec64e3a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player\Callbacks\Main">
+      <UniqueIdentifier>{bd79cf78-8292-4421-9470-90e48d602f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player\Callbacks\AI">
+      <UniqueIdentifier>{cfa7e3de-58f9-47b5-b26c-0564d84e3568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Generic Callbacks">
+      <UniqueIdentifier>{95fc33d7-49ec-4e12-9d25-ad14d71524a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived\Nulls">
+      <UniqueIdentifier>{c22db680-6146-492f-9b54-ae670dea24b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Class Diagrams">
+      <UniqueIdentifier>{ddd38469-2ebb-46ed-9be6-9c26f8394a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Obstacles">
+      <UniqueIdentifier>{1ac678c6-a8d1-4121-82cb-43125f5ab119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Obstacles\Rock">
+      <UniqueIdentifier>{e7b9ceff-444e-4e3f-a78d-df9516c85872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Player\Callbacks\Main\Collision">
+      <UniqueIdentifier>{7f37f26b-a1ff-4984-9ce7-776dd31b3e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Actors\Tanks\Generic Callbacks\Collision">
+      <UniqueIdentifier>{213b0ebf-a430-44fa-8f21-d61d76492782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes\Game">
+      <UniqueIdentifier>{f54c47d9-88b4-4488-9f26-ba8aa8ed8c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\User Code\Scenes\Testing">
+      <UniqueIdentifier>{e4e46e2f-f335-4636-ab80-10f8e4b084ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ModelTools.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\Framework.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="MemTracker\ProjectSettings.h">
+      <Filter>MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Rivet.h">
+      <Filter>Application\Rivet Engine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CameraManager.h">
+      <Filter>Application\Rivet Engine\Camera Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Scene.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\AssetAttorney.h">
+      <Filter>Application\Rivet Engine\Asset Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneAttorney.h">
+      <Filter>Application\Rivet Engine\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneManager.h">
+      <Filter>Application\Rivet Engine\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\GameTimer.h">
+      <Filter>Application\Rivet Engine\Engine\Game Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\TimeAttorney.h">
+      <Filter>Application\Rivet Engine\Engine\Game Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTank.h">
+      <Filter>Application\User Code\Actors\Tanks\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletFactory.h">
+      <Filter>Application\User Code\Actors\Bullet\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletPool.h">
+      <Filter>Application\User Code\Actors\Bullet\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Bullet.h">
+      <Filter>Application\User Code\Actors\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyPool.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyFactory.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\AlarmComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DrawComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\InputComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\InputAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\KeyboardManager.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\KeyHandler.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DrawManager.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Draw\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DrawAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Draw\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\AlarmManager.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Alarm\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\AlarmAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Alarm\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\UpdateComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\UpdateManager.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Update\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\UpdateAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Update\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneRegistrationBroker.h">
+      <Filter>Application\Rivet Engine\Scene Management\Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\FreezeTime.h">
+      <Filter>Application\Rivet Engine\Engine\Game Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Command.h">
+      <Filter>Application\Rivet Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneCommand.h">
+      <Filter>Application\Rivet Engine\Scene Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneChangeAttorney.h">
+      <Filter>Application\Rivet Engine\Scene Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SceneChangeCommand.h">
+      <Filter>Application\Rivet Engine\Scene Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\NullSceneCommand.h">
+      <Filter>Application\Rivet Engine\Scene Management\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\AITank.h">
+      <Filter>Application\User Code\Actors\Tanks\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionManager.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionGroup.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionTestCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionTestPairCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionDispatchBase.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionDispatch.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionVolume.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\BSphere.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\MathTools.h">
+      <Filter>Application\Rivet Engine\Developer Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ModelManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ShaderManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\TextureManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ImageManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Sprite.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SpriteFont.h">
+      <Filter>Application\Rivet Engine\Text Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SpriteString.h">
+      <Filter>Application\Rivet Engine\Text Display</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SpriteFontManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Colors.h">
+      <Filter>Application\Rivet Engine\Developer Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DebugAttorney.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Debugger.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DebugLog.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\GodCam.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\God Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SphereDrawCommand.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionDrawCommand.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\AABB.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\DeregCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\RegCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\RegDeregCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\RegistryAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\IUpdateCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\IDrawCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SpawnAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\BoxDrawCommand.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionBox.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\OBB.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SpawnComponent.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ISpawnCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\IInputCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\IAlarmCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\RegistrationState.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ICollisionCallback.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionUpdateAttorney.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Skybox.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\TerrainManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Terrain.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\TerrainRect.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\TerrainRectIterator.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain\Rectangles</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\GodCamUpdate.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\God Camera\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Component.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ComponentIncludes.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\GameObject.h">
+      <Filter>Application\Rivet Engine\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\GameOverDraw.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\ResetInput.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankInput.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Enemy.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\SkyboxManager.h">
+      <Filter>Application\Rivet Engine\Asset Management\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\AITankUpdate.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\AITankDraw.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletUpdate.h">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Lifetime.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletDraw.h">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\Actor.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\ActorSpawn.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\BulletCollision.h">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\GodCamInput.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\God Camera\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\CollisionTestTerrainCommand.h">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankDraw.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TankDraw.h">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Tank.h">
+      <Filter>Application\User Code\Actors\Tanks</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankUpdate.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TankUpdate.h">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyUpdate.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SentryUpdate.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\EnemyAlarm.h">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Callbacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\NullUpdate.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived\Nulls</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\NullSkybox.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\NullDraw.h">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived\Nulls</Filter>
+    </ClInclude>
+    <ClInclude Include="Rivet Engine\NullTerrain.h">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\Rock.h">
+      <Filter>Application\User Code\Actors\Obstacles\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\RockDraw.h">
+      <Filter>Application\User Code\Actors\Obstacles\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\RockCollision.h">
+      <Filter>Application\User Code\Actors\Obstacles\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankBodyCollision.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\PlayerTankCollision.h">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TankBodyCollision.h">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TankCollision.h">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\SceneSequence.h">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\DemoScene.h">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\DemoScene2.h">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\InitScene.h">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\TerrainTestScene.h">
+      <Filter>Application\User Code\Scenes\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="User Code\KillScene.h">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Rivet Engine\Rivet.cpp">
+      <Filter>Application\Rivet Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\main.cpp">
+      <Filter>Application\Rivet Engine\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Resources\LoadAllResources.cpp">
+      <Filter>Application\Rivet Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Resources\GameStart.cpp">
+      <Filter>Application\Rivet Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Resources\GameEnd.cpp">
+      <Filter>Application\Rivet Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CameraManager.cpp">
+      <Filter>Application\Rivet Engine\Camera Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Scene.cpp">
+      <Filter>Application\Rivet Engine\User Base Classes\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SceneManager.cpp">
+      <Filter>Application\Rivet Engine\Scene Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\GameTimer.cpp">
+      <Filter>Application\Rivet Engine\Engine\Game Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTank.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletFactory.cpp">
+      <Filter>Application\User Code\Actors\Bullet\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletPool.cpp">
+      <Filter>Application\User Code\Actors\Bullet\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Bullet.cpp">
+      <Filter>Application\User Code\Actors\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyPool.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyFactory.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Enemy.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\AlarmComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\DrawComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\InputComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\KeyboardManager.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\KeyHandler.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Key Input\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\DrawManager.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Draw\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\AlarmManager.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Alarm\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\UpdateComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\UpdateManager.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Update\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SceneRegistrationBroker.cpp">
+      <Filter>Application\Rivet Engine\Scene Management\Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\FreezeTime.cpp">
+      <Filter>Application\Rivet Engine\Engine\Game Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SceneChangeCommand.cpp">
+      <Filter>Application\Rivet Engine\Scene Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\NullSceneCommand.cpp">
+      <Filter>Application\Rivet Engine\Scene Management\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\AITank.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionManager.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionGroup.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionTestCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionTestPairCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\BSphere.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\MathTools.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\ModelManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\ShaderManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\TextureManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\ImageManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Sprite.cpp">
+      <Filter>Application\Rivet Engine\User Base Classes\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SpriteFont.cpp">
+      <Filter>Application\Rivet Engine\Text Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SpriteString.cpp">
+      <Filter>Application\Rivet Engine\Text Display</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SpriteFontManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Debugger.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\DebugLog.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\GodCam.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\God Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SphereDrawCommand.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\AABB.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\DeregCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\RegCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\RegDeregCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Registry\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\BoxDrawCommand.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\Debugger\Draw Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionBox.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\OBB.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SpawnComponent.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Skybox.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\TerrainManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Terrain.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\TerrainRect.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\TerrainRectIterator.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain\Rectangles</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\GodCamUpdate.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Debug Tools\God Camera\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Component.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\GameObject.cpp">
+      <Filter>Application\Rivet Engine\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\GameOverDraw.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\ResetInput.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\SkyboxManager.cpp">
+      <Filter>Application\Rivet Engine\Asset Management\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\AITankUpdate.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\AITankDraw.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletUpdate.cpp">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletDraw.cpp">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\Actor.cpp">
+      <Filter>Application\Rivet Engine\User Base Classes\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\ActorSpawn.cpp">
+      <Filter>Application\Rivet Engine\User Base Classes\Component Callbacks\Generic Derived</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\BulletCollision.cpp">
+      <Filter>Application\User Code\Actors\Bullet\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\CollisionTestTerrainCommand.cpp">
+      <Filter>Application\Rivet Engine\Game Objects\Components\Collision\Commands\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankDraw.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TankDraw.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Tank.cpp">
+      <Filter>Application\User Code\Actors\Tanks</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankUpdate.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TankUpdate.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\EnemyUpdate.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SentryUpdate.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Enemy\Callbacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Rivet Engine\NullTerrain.cpp">
+      <Filter>Application\Rivet Engine\Developer Tools\Generic Models\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\Rock.cpp">
+      <Filter>Application\User Code\Actors\Obstacles\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\RockDraw.cpp">
+      <Filter>Application\User Code\Actors\Obstacles\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankBodyCollision.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\PlayerTankCollision.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Player\Callbacks\Main\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TankBodyCollision.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TankCollision.cpp">
+      <Filter>Application\User Code\Actors\Tanks\Generic Callbacks\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\DemoScene.cpp">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\DemoScene2.cpp">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\InitScene.cpp">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\TerrainTestScene.cpp">
+      <Filter>Application\User Code\Scenes\Testing</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\SceneSequence.cpp">
+      <Filter>Application\User Code\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User Code\KillScene.cpp">
+      <Filter>Application\User Code\Scenes\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Components.cd">
+      <Filter>Application\Class Diagrams</Filter>
+    </None>
+    <None Include="Terrain.cd">
+      <Filter>Application\Class Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

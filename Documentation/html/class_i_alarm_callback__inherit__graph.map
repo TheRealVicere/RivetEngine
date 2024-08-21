@@ -1,0 +1,4 @@
+<map id="IAlarmCallback" name="IAlarmCallback">
+<area shape="rect" id="node1" title="A callback to perform the duties of an alarm component." alt="" coords="5,5,200,200"/>
+<area shape="rect" id="node2" href="$class_lifetime.html" title="An alarm that despawns an object after a specified time." alt="" coords="12,248,193,443"/>
+</map>

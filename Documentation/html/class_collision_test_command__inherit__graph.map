@@ -1,0 +1,6 @@
+<map id="CollisionTestCommand" name="CollisionTestCommand">
+<area shape="rect" id="node1" title="A command to test collisions." alt="" coords="149,233,381,516"/>
+<area shape="rect" id="node3" href="$class_collision_test_pair_command.html" title="A collision test command for two objects of different types." alt="" coords="5,564,256,847"/>
+<area shape="rect" id="node4" href="$class_collision_test_terrain_command.html" title="A command to test collision with terrain." alt="" coords="280,571,523,839"/>
+<area shape="rect" id="node2" href="$class_command.html" title="A base command for the command pattern." alt="" coords="166,5,365,185"/>
+</map>

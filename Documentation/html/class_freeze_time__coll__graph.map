@@ -1,0 +1,3 @@
+<map id="FreezeTime" name="FreezeTime">
+<area shape="rect" id="node1" title="Handles debug freeze frame mode and pauses the game while the window is moving." alt="" coords="5,5,196,420"/>
+</map>

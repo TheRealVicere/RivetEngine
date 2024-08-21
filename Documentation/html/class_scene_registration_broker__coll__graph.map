@@ -1,0 +1,5 @@
+<map id="SceneRegistrationBroker" name="SceneRegistrationBroker">
+<area shape="rect" id="node1" title="A broker used to execute scene registry commands." alt="" coords="5,388,245,612"/>
+<area shape="rect" id="node2" title=" " alt="" coords="44,248,207,325"/>
+<area shape="rect" id="node3" href="$class_command.html" title="A base command for the command pattern." alt="" coords="26,5,225,185"/>
+</map>

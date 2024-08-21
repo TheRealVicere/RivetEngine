@@ -1,0 +1,6 @@
+<map id="CollisionBox" name="CollisionBox">
+<area shape="rect" id="node1" title="A box surrounding an object with collision functionality. Used for collision testing." alt="" coords="109,483,299,985"/>
+<area shape="rect" id="node3" href="$class_a_a_b_b.html" title="An axis&#45;aligned box surrounding an object with collision functionality. Used for collision testing." alt="" coords="5,1033,192,1375"/>
+<area shape="rect" id="node4" href="$class_o_b_b.html" title="A box oriented with an object with collision functionality. Used for collision testing." alt="" coords="216,1048,403,1360"/>
+<area shape="rect" id="node2" href="$class_collision_volume.html" title="A simple volume used for collision testing." alt="" coords="105,5,303,435"/>
+</map>

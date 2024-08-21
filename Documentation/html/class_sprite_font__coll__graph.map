@@ -1,0 +1,7 @@
+<map id="SpriteFont" name="SpriteFont">
+<area shape="rect" id="node1" title="A text font broken down into sprites (&quot;glyphs&quot;) of each character, used for text display." alt="" coords="61,608,246,891"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,468,118,545"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,159,133,251"/>
+<area shape="rect" id="node4" title=" " alt="" coords="157,468,331,545"/>
+<area shape="rect" id="node5" href="$class_sprite.html" title="An image used as a model for a game object." alt="" coords="158,5,343,405"/>
+</map>
